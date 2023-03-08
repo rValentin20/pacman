@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pacman</title>
+    <title>animate</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/fanta.ico">
@@ -11,30 +11,99 @@
   <body>
     <div class="container">
         <div class="row">
-          <audio controls autoplay="autoplay" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 audio">
-            <source src="assets/pac.mpeg" autoplay="autoplay" type="audio/mpeg" loop="infinite">
-          </audio>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-              <h1 class="letrero">PAC MAN</h1>
+         
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="assets/logo.png" alt="" width="120px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Compañia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Comunidad</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        regalos
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">juegos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">ropa</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">play</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">videojuego</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/foto.jfif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/foto.jfif" class="d-block w-100" alt="assets/foto.jfif">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/foto.jfif" class="d-block w-100" alt="assets/foto.jfif">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-              <div class="barra"></div>
-            </div>
-            <div class="fondo col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9  col-xxl-9">
-                <!--ACA COMIENZO A ANIMAR EL PACMAN-->
-                <img src="assets/pacman.gif" alt="pacman" width="2%" height="3%"  class="pacmanmotion">
-                <img src="assets/bicho1.gif" alt="bichoUno" width="3%" height="3%" class="bichoUno">
-                <!-- <img src="assets/backgroundpacman.jpg" alt="fondo pacman" width="100%"> -->
-            </div>
-            <div class=" col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
-                <ul class="lista" >
-                    <li>Tiktok</li>
-                    <li>Tiktok</li>
-                </ul>
-            </div>
-            
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+          <img src="assets/regalo.jpg" alt="" width="100%">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+            <h1>somos tiempo</h1>
+            <h4>Felíz día</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci atque provident voluptas quas maxime dolorem. Saepe, dignissimos voluptatum fuga mollitia ab repellendus deserunt, hic deleniti rerum corrupti quia excepturi quos?</p>
+          </div>  
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="assets/regalo.jpg" alt="" width="100%">
+          </div>  
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+           <strong><p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit amet incidunt, corrupti, quos libero non repellendus esse nulla nam similique veniam porro tempore laborum neque eos pariatur, dignissimos error!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis omnis fuga libero minima fugit, maiores consequuntur velit corporis iste earum sint ullam eaque doloribus aliquam id magni quos ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, corrupti reiciendis quaerat ex consequatur laudantium pariatur! Quia in recusandae fuga! Commodi reprehenderit repellat quam consequatur aspernatur debitis, quibusdam ipsum qui?
+           </p></strong>
+           
+          </div>  
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+            <img src="assets/pacm.jpg" alt="" width="100%">
+          </div>  
+          <footer class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center align-items-center">
+            <img src="assets/logo.png" alt="" width="120px" class="p-4">
+            <p>copywriter valenpuchis</p>
+          </footer> 
                 
-            </div>
+            
         </div>
     </div>
 
